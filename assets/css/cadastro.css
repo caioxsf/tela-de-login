@@ -1,0 +1,94 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-form
+{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario-cadastro
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    position: relative;
+    top: 20vh;
+    padding: 50px;
+    border-radius: 8px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formulario-cadastro input
+{
+    padding: 6px;
+    border-radius: 6px;
+    outline: none;
+    border: 1px solid grey;
+
+    margin-bottom: 15px;
+}
+
+.formulario-cadastro h1
+{
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+fieldset
+{
+    display: flex;
+    border: none;
+    gap: 30px;
+}
+
+fieldset input
+{
+    display: flex;
+}
+
+
+.formulario-cadastro .btn
+{
+    margin-top: 15px;
+}
+
+.formulario-cadastro p
+{
+    position: relative;
+    top: 15px;
+}
+
+.btn
+{
+    margin-top: 15px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover
+{
+    background-color: rgb(109, 27, 186);
+}
+
+.nova-conta a
+{
+    color: rgb(41, 144, 179);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.nova-conta a:hover
+{
+    color: rgb(30, 104, 128);
+}

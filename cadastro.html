@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <title>Tela de Cadastro</title>
+</head>
+<body>
+    
+    <div class="container-form">
+        <form action="" class="formulario-cadastro">
+            <h1>Cadastro</h1>
+
+            <fieldset>
+                <div>
+                    <label for="">Nome</label>
+                    <input type="text" class="nome" onblur="Nomes(this)" required>
+                </div>
+
+                <div>
+                    <label for="">Sobrenome</label>
+                    <input type="text" class="sobrenome" onblur="Nomes(this)" required>
+                </div>
+            </fieldset>
+
+            <label for="">E-mail</label>
+            <input type="text" onblur="validarEmail(this)" required>
+
+            <label for="">Senha</label>
+            <input type="text" id="senha">
+
+            <label for="">Confirmar senha</label>
+            <input type="text" id="senha2">
+
+            <input type="button" class="btn" value="Registrar" onclick="validarSenha()">
+
+            <p>Já tem uma conta?</p>
+            <p class="nova-conta"><a href="login.html">Faça já o login</a></p>
+            
+        </form>
+    </div>  
+
+    <script src="assets/script/cadastro.js"></script>
+
+</body>
+</html>
